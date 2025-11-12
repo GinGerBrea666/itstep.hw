@@ -14,7 +14,7 @@ class Worker:
         print(f"Ініціалізація: Працівник, посада: {self.job_title}")
 
     def work(self):
-        print(f"Я працюю, заробляю гроші! (посада: {self.job_title}) ☕")
+        print(f"Я працюю, заробляю гроші! (посада: {self.job_title}) ")
 
 class StudentWorker(Student, Worker):
 
