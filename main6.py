@@ -2,9 +2,9 @@ result = []
 
 def divider(a, b):
     if a < b:
-        raise ValueError("a < b — помилка")
+        raise ValueError("a < b")
     if b > 100:
-        raise IndexError("b > 100 — помилка")
+        raise IndexError("b > 100")
     return a / b
 
 
